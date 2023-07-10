@@ -20,7 +20,7 @@ class MyApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
-      //debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       title: 'HashBird',
       theme: AppTheme.theme,
       home: ref.watch(currentUserAccountProvider).when(
